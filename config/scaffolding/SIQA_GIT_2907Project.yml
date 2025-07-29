@@ -16,6 +16,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2071
+- serviceName: project.siqa_git_2907.integrations:Call_refData
+  packages:
+  - name: SIQA_GIT_2907Project
+    version: "1.0"
+- serviceName: project.siqa_git_2907.referencedata:refData
+  packages:
+  - name: SIQA_GIT_2907Project
+    version: "1.0"
 - serviceName: project.siqa_git_2907.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_2907Project
